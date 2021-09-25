@@ -160,7 +160,7 @@ button:hover {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1315px) {
   canvas {
     padding: 5em;
   }
