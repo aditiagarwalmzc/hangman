@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+    <!-- STYLING -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Hangman</title>
+</head>
+
+<body>
+    <div class="wrapper" class= "column1">
+        <h1>Hangman</h1>
+        <p id="catagoryName"></p>
+    </div>
+     
+    <div class="wrapper">
+        <div id="buttons" class= "column1"></div>
+        <div id="hold" class= "column1"></div>
+        <p id="mylives" class="column1"></p>
+        <p id="clue" class= "column2">CLUE-</p>
+        <canvas id="stickman" class= "column2">This Text will show if the Browser does NOT support HTML5 Canvas tag</canvas>
+
+        <div class="container">
+           <button id="hint">HINT</button>
+           <button id="reset" onclick=>PLAY AGAIN</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

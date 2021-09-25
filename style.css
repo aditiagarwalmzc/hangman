@@ -1,0 +1,265 @@
+body {
+  background: rgb(37, 37, 37);
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+    Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #fff;
+  height: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.wrappper {
+  width: 100%;
+  margin: 20 auto;
+}
+
+.wrappper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+canvas {
+  color: #fff;
+  border: #fff dashed 3px;
+  padding: 9em;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin: 2px 0;
+}
+
+h1 {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 4em;
+  margin-top: 0.5em;
+}
+
+p {
+  font-size: 1.6em;
+  font-family: "Pangolin", cursive;
+}
+
+#clue {
+  font-size: 2em;
+}
+
+#alphabet {
+  margin: 15px auto;
+  padding: 0;
+  padding-top: 100px;
+  padding-left: 0px;
+  max-width: 500px;
+}
+
+#alphabet:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#alphabet li {
+  float: left;
+  margin: 0 20px 20px 10px;
+  list-style: none;
+  width: 30px;
+  height: 30px;
+  padding-top: 10px;
+  background: #fff;
+  color: #000;
+  font-weight: 700;
+  cursor: pointer;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border: solid 1px #fff;
+}
+
+#alphabet li:hover {
+  background: #c1d72e;
+  border: solid 1px #fff;
+  color: #fff;
+}
+#my-word {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+#my-word li {
+  position: relative;
+  list-style: none;
+  margin: 0;
+  display: inline-block;
+  padding: 0 10px;
+  font-size: 1.6em;
+}
+
+.active {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  cursor: default;
+}
+.active:hover {
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+  -moz-transition: all 1s ease-in;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+#mylives {
+  font-size: 1.6em;
+  text-align: center;
+  display: block;
+}
+
+button {
+  border-radius: 20px;
+  font-family: "Pangolin", cursive;
+  background: rgb(27, 27, 27);
+  color: #fff;
+  border: solid 1px #fff;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 18px 10px;
+  width: 180px;
+  margin: 10px;
+  margin-top: 20px;
+  outline: none;
+}
+
+button:hover {
+  transition: all 0.3s ease-in-out;
+  background: #fff;
+  border: solid 1px #fff;
+  color: #8a9926;
+}
+
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+@media (max-width: 480px) {
+  #alphabet {
+    padding: 0 0 0 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  canvas {
+    padding: 5em;
+  }
+}
+
+@media (max-width: 1027px) {
+  canvas {
+    padding: 4em;
+  }
+}
+
+@media (max-width: 956px) {
+  canvas {
+    padding: 3em;
+  }
+}
+
+@media (max-width: 884px) {
+  canvas {
+    padding: 4em;
+  }
+
+  .column1 {
+    float: top;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 460px) {
+  canvas {
+    padding: 2.5em;
+  }
+  h1 {
+    font-size: 3em;
+  }
+
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 10px;
+    width: 20px;
+    height: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+
+  #clue {
+    font-size: 1.5em;
+  }
+
+  #mylives {
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+  }
+
+  .column1 {
+    float: top;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  button {
+    width: 160px;
+  }
+}
+
+@media (max-width: 411px) {
+  canvas {
+    padding: 1.5em;
+  }
+
+  .column1 {
+    float: top;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+  }
+
+  button {
+    width: 140px;
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 360px) {
+  canvas {
+    padding: 1em;
+  }
+}
+
+@media (max-width: 320px) {
+  canvas {
+    padding: 0.7em;
+  }
+  button {
+    width: 120px;
+    font-size: 0.6em;
+  }
+}
