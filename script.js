@@ -231,6 +231,13 @@ window.onload = function () {
         "friends",
         "doctor-who",
         "this-is-us",
+        "hannah-montana",
+        "greys-anatomy",
+        "the-big-bang-theory",
+        "game-of-thrones",
+        "fleabag",
+        "killing-eve",
+        "brooklyn-nine-nine",
       ],
       [
         "la-la-land",
@@ -238,8 +245,26 @@ window.onload = function () {
         "tangled",
         "ratatouille",
         "mean-girls",
+        "minions",
+        "legally-blonde",
+        "titanic",
+        "soul",
+        "toy-story",
+        "the-sound-of-music",
+        "life-of-pi"
       ],
-      ["thirteen", "blank-space", "folklore", "reputation", "all-too-well"],
+      ["thirteen", 
+        "blank-space", 
+        "folklore", 
+        "reputation", 
+        "all-too-well",
+        "kanye-west",
+        "meredith",
+        "benjamin",
+        "olivia",
+        "red",
+        "fearless"
+    ],
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -271,6 +296,13 @@ window.onload = function () {
         "funny",
         "tardis",
         "Big three!",
+        "A teen pop icon who lives a double life.",
+        "Medical drama that doesn't seem to end",
+        "Bazinga!",
+        "Winter is coming",
+        "Hot priest! O.o",
+        '"I bet your kids are ugly!"',
+        "Noice!"
       ],
       [
         "A musical that won an oscar, almost.",
@@ -278,6 +310,13 @@ window.onload = function () {
         "Lanterns",
         "Chef rat",
         "Plastics",
+        "BANANA!",
+        "Just bend and snap!",
+        "One of the most iconic Leo films",
+        "Jazzing!",
+        "To infinity and beyond!",
+        "Raindrops on roses and whiskers on kittens",
+        "Piscine"
       ],
       [
         "The lucky number",
@@ -285,6 +324,12 @@ window.onload = function () {
         "Her first surprise album",
         "The comeback album",
         "Jake Gyllenhaal",
+        "Taylor Swift made this guy famous",
+        "Swifties thought this cat was dead",
+        "Her most recent cat",
+        "Dibbles",
+        "Not the album about Harry Styles",
+        "Her first album that won a Grammy"
       ],
     ];
 
