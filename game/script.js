@@ -77,6 +77,8 @@ window.onload = function () {
       catagoryName.innerHTML = "Category: Films";
     } else if (chosenCategory === categories[2]) {
       catagoryName.innerHTML = "Category: Taylor Swift";
+    } else if (chosenCategory === categories[3]) {
+      catagoryName.innerHTML = "Category: Programming";
     }
   };
 
@@ -111,7 +113,7 @@ window.onload = function () {
     }
     for (var i = 0; i < guesses.length; i++) {
       if (counter + space === guesses.length) {
-        showLives.innerHTML = "You Win!";
+        showLives.innerHTML = "You Win! Click on Play again for another game.";
         alert("YOU WIN!");
         disableAllButtons();
         break;
@@ -265,6 +267,18 @@ window.onload = function () {
         "red",
         "fearless"
     ],
+    [
+      "big-o",
+      "index",
+      "python",
+      "javascript",
+      "java",
+      "swift",
+      "c-sharp",
+      "ada-lovelace",
+      "errors",
+      "vscode"
+    ]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
@@ -331,6 +345,18 @@ window.onload = function () {
         "Not the album about Harry Styles",
         "Her first album that won a Grammy"
       ],
+      [
+        "Time and space complexity",
+        "Starts with 0",
+        "Snake",
+        "Language used to build this game",
+        "The most popular language",
+        "Apple made this language",
+        "Language mostly used for game development",
+        "First female programmer",
+        "These bugs are not cute!",
+        "Most people prefer this text editor for coding"
+      ]
     ];
 
     var catagoryIndex = categories.indexOf(chosenCategory);
